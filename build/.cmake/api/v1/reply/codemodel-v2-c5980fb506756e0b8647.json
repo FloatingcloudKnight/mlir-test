@@ -1,0 +1,253 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"jsonFile" : "directory-.-RELEASE-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6,
+						7,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "mytest",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-mytest-RELEASE-a6e18043706ce408e32c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "mytest",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "mytest/include",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-mytest.include-RELEASE-5c4dcfed0d5fa900884a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "mytest/include"
+				},
+				{
+					"build" : "mytest/include/toy",
+					"jsonFile" : "directory-mytest.include.toy-RELEASE-453d2c5be60e7ea49373.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "mytest/include/toy",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "cmake",
+					"jsonFile" : "directory-cmake-RELEASE-0eb79bec6da18a9ec259.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cmake"
+				}
+			],
+			"name" : "RELEASE",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "mytoy",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "RISCVTargetParserTableGen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RISCVTargetParserTableGen-RELEASE-8bd2e1b7d8d170ac5792.json",
+					"name" : "RISCVTargetParserTableGen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ToyCombineIncGen::@db879a16f8f8a307e229",
+					"jsonFile" : "target-ToyCombineIncGen-RELEASE-344ec87ff79ba3c2b1aa.json",
+					"name" : "ToyCombineIncGen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ToyDSLOpsIncGen::@e0c64c1f88b2e7efd9eb",
+					"jsonFile" : "target-ToyDSLOpsIncGen-RELEASE-34e952f8d5fb77860ec0.json",
+					"name" : "ToyDSLOpsIncGen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ToyShapeInferenceInterfaceIncGen::@e0c64c1f88b2e7efd9eb",
+					"jsonFile" : "target-ToyShapeInferenceInterfaceIncGen-RELEASE-1a7b926a5b7ec0c305c0.json",
+					"name" : "ToyShapeInferenceInterfaceIncGen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acc_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acc_gen-RELEASE-d16b8bf4335a811ece8e.json",
+					"name" : "acc_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "antlr4_runtime::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-antlr4_runtime-RELEASE-e825581d37b3dcfdf720.json",
+					"name" : "antlr4_runtime",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "antlr4_runtime-build_shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-antlr4_runtime-build_shared-RELEASE-610747f5ec8a7cc702de.json",
+					"name" : "antlr4_runtime-build_shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "antlr4_runtime-build_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-antlr4_runtime-build_static-RELEASE-1f66a174e09fcc882d5f.json",
+					"name" : "antlr4_runtime-build_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "buddy-toy-dsl::@db879a16f8f8a307e229",
+					"jsonFile" : "target-buddy-toy-dsl-RELEASE-3e2c634a5ddb1bb73276.json",
+					"name" : "buddy-toy-dsl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intrinsics_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intrinsics_gen-RELEASE-ff798bd36389d72ccdbd.json",
+					"name" : "intrinsics_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mlir-doc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mlir-doc-RELEASE-fa497b6ac61e5f9e5554.json",
+					"name" : "mlir-doc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mlir-generic-headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mlir-generic-headers-RELEASE-f64445b5475c25d31626.json",
+					"name" : "mlir-generic-headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mlir-headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mlir-headers-RELEASE-b950530a8684d397e517.json",
+					"name" : "mlir-headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mlir-tablegen-targets::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mlir-tablegen-targets-RELEASE-b42ade2838b34bf8c48e.json",
+					"name" : "mlir-tablegen-targets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omp_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omp_gen-RELEASE-1e4f0990e2847116225d.json",
+					"name" : "omp_gen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/d/llvm/mytoy/build",
+		"source" : "/mnt/d/llvm/mytoy"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
